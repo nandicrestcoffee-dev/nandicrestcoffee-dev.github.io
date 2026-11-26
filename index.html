@@ -47,7 +47,7 @@
       font-family: 'Plus Jakarta Sans', sans-serif;
     }
     .glass-nav {
-      background: rgba(14, 11, 10, 0.8);
+      background: rgba(14, 11, 10, 0.82);
       backdrop-filter: blur(14px);
       -webkit-backdrop-filter: blur(14px);
       border-bottom: 1px solid rgba(200, 157, 84, 0.16);
@@ -98,7 +98,6 @@
 
       <!-- Right Controls: Language Switcher + Blog + Email CTA -->
       <div class="flex items-center gap-2 sm:gap-2.5">
-        <!-- Language Switcher -->
         <div class="inline-flex items-center rounded-full bg-roast border border-gold/30 p-0.5 text-xs font-semibold" role="group" aria-label="Language switcher">
           <a
             href="https://nandicrestcoffee-dev.github.io/"
@@ -255,10 +254,9 @@
           <div class="lg:col-span-5">
             <div class="relative rounded-3xl overflow-hidden border border-gold/30 bg-roast shadow-card">
               <img
-                src="1000030405.jpg"
-                data-fallback="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1200&q=80"
-                onerror="if(!this.dataset.done){this.dataset.done='1';this.src=this.dataset.fallback;}"
-                alt="Nandi Crest Coffee single origin bag, cupping cup, and highland hills"
+                data-repo-img="grok_1793181558025.jpg,grok_1793181873546.jpg,grok_1793182687051.jpg,file_1795675940463.jpg"
+                data-label="Nandi Crest Single Origin"
+                alt="Nandi Crest Coffee single origin showcase"
                 class="w-full h-[420px] sm:h-[490px] object-cover"
               />
               <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-obsidian via-obsidian/85 to-transparent p-6">
@@ -297,17 +295,16 @@
           <!-- Card 1 -->
           <article class="card-surface rounded-2xl overflow-hidden transition duration-300">
             <img
-              src="1000033700.jpg"
-              data-fallback="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1000&q=80"
-              onerror="if(!this.dataset.done){this.dataset.done='1';this.src=this.dataset.fallback;}"
-              alt="Selective hand-picking of ripe red coffee cherries in Nandi Hills"
+              data-repo-img="grok_1793181873546.jpg,grok_1793181558025.jpg,file_1795675940463.jpg"
+              data-label="Nandi Hills Harvest"
+              alt="Nandi Hills coffee origin and harvest"
               class="w-full h-56 object-cover"
             />
             <div class="p-6 space-y-2.5">
               <div class="text-xs uppercase tracking-widest text-gold">01 • Harvest</div>
-              <h3 class="font-serif text-2xl font-semibold text-cream">Selective Cherry Picking</h3>
+              <h3 class="font-serif text-2xl font-semibold text-cream">High-Altitude Arabica</h3>
               <p class="text-sm text-sand/75 leading-relaxed">
-                Hand-harvested at peak ripeness across high-elevation plots in Nandi County to protect cup clarity, sweetness, and uniformity.
+                Grown in Nandi Hills and selected for cup brightness, sweetness, and clean structure suited for specialty roasteries.
               </p>
             </div>
           </article>
@@ -315,17 +312,16 @@
           <!-- Card 2 -->
           <article class="card-surface rounded-2xl overflow-hidden transition duration-300">
             <img
-              src="1000030410.jpg"
-              data-fallback="https://images.unsplash.com/photo-1559525839-b184a4d698c7?auto=format&fit=crop&w=1000&q=80"
-              onerror="if(!this.dataset.done){this.dataset.done='1';this.src=this.dataset.fallback;}"
-              alt="Freshly milled green Arabica coffee beans in woven sacks"
+              data-repo-img="grok_1793182687051.jpg,file_1795675940463.jpg,grok_1793181558025.jpg"
+              data-label="Green Bean Grading"
+              alt="Green Arabica coffee grading and preparation"
               class="w-full h-56 object-cover"
             />
             <div class="p-6 space-y-2.5">
               <div class="text-xs uppercase tracking-widest text-gold">02 • Milling & Grading</div>
-              <h3 class="font-serif text-2xl font-semibold text-cream">Precision Screen & Density Sort</h3>
+              <h3 class="font-serif text-2xl font-semibold text-cream">Screen & Moisture Control</h3>
               <p class="text-sm text-sand/75 leading-relaxed">
-                Carefully dried, hulled, and graded into export-ready screen sizes with controlled moisture levels for sea and air transit.
+                Carefully graded and moisture-checked for stable transit across ocean container routes and air cargo shipments.
               </p>
             </div>
           </article>
@@ -333,17 +329,16 @@
           <!-- Card 3 -->
           <article class="card-surface rounded-2xl overflow-hidden transition duration-300">
             <img
-              src="1000030675.jpg"
-              data-fallback="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=80"
-              onerror="if(!this.dataset.done){this.dataset.done='1';this.src=this.dataset.fallback;}"
-              alt="International coffee trade partnership and shipment coordination"
+              data-repo-img="file_1795675940463.jpg,grok_1793181558025.jpg,grok_1793182687051.jpg"
+              data-label="Nairobi Trade Desk"
+              alt="International coffee trade and export coordination"
               class="w-full h-56 object-cover"
             />
             <div class="p-6 space-y-2.5">
               <div class="text-xs uppercase tracking-widest text-gold">03 • Commercial Execution</div>
               <h3 class="font-serif text-2xl font-semibold text-cream">FOB & CIF Global Trade</h3>
               <p class="text-sm text-sand/75 leading-relaxed">
-                Direct execution from our Nairobi trade desk with tailored FOB Mombasa and CIF offers via sea freight or air freight.
+                Direct coordination from our Nairobi trade desk with tailored FOB Mombasa and CIF offers via sea freight or air freight.
               </p>
             </div>
           </article>
@@ -362,23 +357,22 @@
         </div>
 
         <div class="grid lg:grid-cols-2 gap-8">
-          <!-- Specialty / Single Origin -->
           <div class="card-surface rounded-2xl p-7 sm:p-8 flex flex-col justify-between transition duration-300">
             <div>
               <div class="flex items-center justify-between gap-4 mb-4">
                 <span class="px-3 py-1 rounded-full text-xs font-semibold bg-gold/15 text-goldLight border border-gold/30">
-                  Specialty & Micro/Estate Lots
+                  Specialty & Estate Lots
                 </span>
                 <span class="text-xs text-sand/65">Screen AA / AB</span>
               </div>
               <h3 class="font-serif text-3xl font-semibold text-cream">Nandi Hills Washed Arabica</h3>
               <p class="text-sm text-sand/80 mt-3 leading-relaxed">
-                Crisp malic and citric brightness balanced by berry sweetness, cocoa depth, and a clean finish suited for filter and espresso programs.
+                Vibrant highland acidity balanced by berry sweetness, cocoa depth, and a clean finish for filter and espresso programs.
               </p>
               <ul class="mt-6 space-y-2.5 text-sm text-sand/85 border-t border-gold/15 pt-5">
                 <li class="flex justify-between gap-4">
-                  <span class="text-sand/65">Process</span>
-                  <span class="font-medium text-cream">Fully Washed / Sun-Dried</span>
+                  <span class="text-sand/65">Origin</span>
+                  <span class="font-medium text-cream">Nandi Hills, Kenya</span>
                 </li>
                 <li class="flex justify-between gap-4">
                   <span class="text-sand/65">Target Moisture</span>
@@ -386,7 +380,7 @@
                 </li>
                 <li class="flex justify-between gap-4">
                   <span class="text-sand/65">Packaging</span>
-                  <span class="font-medium text-cream">60kg Jute / GrainPro / Sample Pouches</span>
+                  <span class="font-medium text-cream">60kg Export Bags / Air Sample Pouches</span>
                 </li>
               </ul>
             </div>
@@ -401,7 +395,6 @@
             </div>
           </div>
 
-          <!-- FOB & CIF / Sea & Air -->
           <div class="card-surface rounded-2xl p-7 sm:p-8 flex flex-col justify-between transition duration-300">
             <div>
               <div class="flex items-center justify-between gap-4 mb-4">
@@ -412,7 +405,7 @@
               </div>
               <h3 class="font-serif text-3xl font-semibold text-cream">International Shipping & Terms</h3>
               <p class="text-sm text-sand/80 mt-3 leading-relaxed">
-                We quote both <strong class="text-cream">FOB (Free On Board)</strong> and <strong class="text-cream">CIF (Cost, Insurance & Freight)</strong>, coordinating <strong class="text-cream">Sea Freight</strong> containers and <strong class="text-cream">Air Freight</strong> shipments based on volume and urgency.
+                We structure offers under <strong class="text-cream">FOB (Free On Board)</strong> and <strong class="text-cream">CIF (Cost, Insurance & Freight)</strong>, supporting <strong class="text-cream">Sea Freight</strong> and <strong class="text-cream">Air Freight</strong> based on volume and urgency.
               </p>
               <ul class="mt-6 space-y-2.5 text-sm text-sand/85 border-t border-gold/15 pt-5">
                 <li class="flex justify-between gap-4">
@@ -443,7 +436,7 @@
       </div>
     </section>
 
-    <!-- FOB, CIF, Sea & Air Logistics + Export Documentation -->
+    <!-- FOB, CIF, Sea & Air Logistics + Visuals -->
     <section id="trade" class="py-20 border-t border-gold/10 bg-espresso/60">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid lg:grid-cols-12 gap-10 items-center">
@@ -478,17 +471,15 @@
 
           <div class="lg:col-span-6 grid sm:grid-cols-2 gap-4">
             <img
-              src="1000030407.jpg"
-              data-fallback="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1000&q=80"
-              onerror="if(!this.dataset.done){this.dataset.done='1';this.src=this.dataset.fallback;}"
-              alt="Nandi Hills processing, Mombasa port logistics, and export documentation overview"
+              data-repo-img="grok_1793182687051.jpg,grok_1793181558025.jpg,file_1795675940463.jpg"
+              data-label="Export & Sea Freight"
+              alt="Coffee export and sea freight logistics"
               class="rounded-2xl border border-gold/25 object-cover w-full h-64 sm:h-72 shadow-card"
             />
             <img
-              src="1000030406.jpg"
-              data-fallback="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=1000&q=80"
-              onerror="if(!this.dataset.done){this.dataset.done='1';this.src=this.dataset.fallback;}"
-              alt="Single origin coffee bag, commercial invoice, and certificate of origin"
+              data-repo-img="grok_1793181873546.jpg,file_1795675940463.jpg,grok_1793181558025.jpg"
+              data-label="Trade Documentation"
+              alt="Single origin coffee and trade documentation"
               class="rounded-2xl border border-gold/25 object-cover w-full h-64 sm:h-72 shadow-card sm:mt-8"
             />
           </div>
@@ -496,7 +487,7 @@
       </div>
     </section>
 
-    <!-- Field Notes / Blog Bridge -->
+    <!-- Official Blog Link Section -->
     <section id="journal" class="py-20 border-t border-gold/10">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="rounded-3xl card-surface p-8 sm:p-10 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
@@ -528,7 +519,6 @@
     <section id="contact" class="py-20 border-t border-gold/10 bg-espresso/70">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid lg:grid-cols-12 gap-10">
-          <!-- Left Contact Info -->
           <div class="lg:col-span-5 space-y-6">
             <div>
               <span class="text-xs uppercase tracking-[0.24em] text-gold">Strategic Trade Desk</span>
@@ -540,7 +530,6 @@
               </p>
             </div>
 
-            <!-- Direct Email Box -->
             <div class="rounded-2xl bg-roast border border-gold/30 p-5 space-y-3">
               <div class="text-xs uppercase tracking-widest text-sand/65">Official Trade Email</div>
               <div class="flex flex-wrap items-center justify-between gap-3">
@@ -563,7 +552,6 @@
               </p>
             </div>
 
-            <!-- Quick Navigation & External Links -->
             <div class="flex flex-wrap gap-3 text-xs">
               <a
                 href="https://nandicrestcoffee.blogspot.com/?m=1"
@@ -582,7 +570,6 @@
             </div>
           </div>
 
-          <!-- Right Quick Inquiry Composer -->
           <div class="lg:col-span-7">
             <form id="trade-inquiry-form" class="card-surface rounded-3xl p-6 sm:p-8 space-y-5">
               <div class="flex items-center justify-between gap-4">
@@ -721,6 +708,45 @@
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Guaranteed image loader: tries repo files first (relative + raw GitHub), then guaranteed inline SVG fallback
+    function makeFallbackSvg(label) {
+      const safe = (label || 'Nandi Crest Coffee').replace(/[<>&"]/g, '');
+      const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+        <defs>
+          <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#1E3328"/>
+            <stop offset="55%" stop-color="#241A16"/>
+            <stop offset="100%" stop-color="#0E0B0A"/>
+          </linearGradient>
+        </defs>
+        <rect width="1200" height="800" fill="url(#bg)"/>
+        <circle cx="600" cy="340" r="150" fill="none" stroke="#C89D54" stroke-opacity="0.35" stroke-width="2"/>
+        <text x="600" y="330" text-anchor="middle" fill="#E0BE82" font-family="Georgia, serif" font-size="44" font-weight="bold">NANDI CREST COFFEE</text>
+        <text x="600" y="385" text-anchor="middle" fill="#F6F1EA" fill-opacity="0.85" font-family="sans-serif" font-size="24">${safe}</text>
+        <text x="600" y="435" text-anchor="middle" fill="#C89D54" font-family="sans-serif" font-size="18" letter-spacing="3">KENYAN ARABICA • FOB & CIF • SEA & AIR</text>
+      </svg>`;
+      return 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(svg);
+    }
+
+    document.querySelectorAll('img[data-repo-img]').forEach((img) => {
+      const names = img.getAttribute('data-repo-img').split(',').map((s) => s.trim()).filter(Boolean);
+      const candidates = [];
+      names.forEach((n) => {
+        candidates.push('./' + encodeURIComponent(n));
+        candidates.push('https://raw.githubusercontent.com/nandicrestcoffee-dev/nandicrestcoffee-dev.github.io/main/' + encodeURIComponent(n));
+      });
+      candidates.push(makeFallbackSvg(img.getAttribute('data-label')));
+
+      let idx = 0;
+      const tryNext = () => {
+        if (idx < candidates.length) {
+          img.src = candidates[idx++];
+        }
+      };
+      img.addEventListener('error', tryNext);
+      tryNext();
+    });
 
     // Mobile menu toggle
     const menuBtn = document.getElementById('mobile-menu-btn');
