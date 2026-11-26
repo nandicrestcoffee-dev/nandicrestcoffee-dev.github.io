@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nandi Crest Coffee — High-Altitude Kenyan Arabica & Global Trade Desk</title>
-  <meta name="description" content="Single-origin high-altitude Kenyan Arabica from Nandi Hills and direct B2B export & strategic trade operations from Nairobi via Port of Mombasa." />
+  <meta name="description" content="Single-origin high-altitude Kenyan Arabica from Nandi Hills and direct B2B export via FOB Mombasa & CIF, Sea and Air Freight from Nairobi." />
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -47,7 +47,7 @@
       font-family: 'Plus Jakarta Sans', sans-serif;
     }
     .glass-nav {
-      background: rgba(14, 11, 10, 0.78);
+      background: rgba(14, 11, 10, 0.8);
       backdrop-filter: blur(14px);
       -webkit-backdrop-filter: blur(14px);
       border-bottom: 1px solid rgba(200, 157, 84, 0.16);
@@ -58,7 +58,7 @@
       -webkit-text-fill-color: transparent;
     }
     .card-surface {
-      background: linear-gradient(180deg, rgba(36, 26, 22, 0.75) 0%, rgba(24, 18, 16, 0.92) 100%);
+      background: linear-gradient(180deg, rgba(36, 26, 22, 0.78) 0%, rgba(24, 18, 16, 0.94) 100%);
       border: 1px solid rgba(200, 157, 84, 0.18);
     }
     .card-surface:hover {
@@ -90,15 +90,15 @@
       <!-- Desktop Nav -->
       <nav class="hidden lg:flex items-center gap-7 text-sm text-sand/85">
         <a href="#origin" class="hover:text-gold transition">Origin & Terroir</a>
-        <a href="#offerings" class="hover:text-gold transition">Grades & Lots</a>
-        <a href="#trade" class="hover:text-gold transition">Export & Docs</a>
-        <a href="#journal" class="hover:text-gold transition">Field Notes</a>
+        <a href="#offerings" class="hover:text-gold transition">Grades & Terms</a>
+        <a href="#trade" class="hover:text-gold transition">FOB / CIF & Freight</a>
+        <a href="#journal" class="hover:text-gold transition">Blog</a>
         <a href="#contact" class="hover:text-gold transition">Trade Desk</a>
       </nav>
 
-      <!-- Right Controls: Language Switcher + CTA -->
-      <div class="flex items-center gap-2.5 sm:gap-3">
-        <!-- Language Switcher (EN active, RU external link) -->
+      <!-- Right Controls: Language Switcher + Blog + Email CTA -->
+      <div class="flex items-center gap-2 sm:gap-2.5">
+        <!-- Language Switcher -->
         <div class="inline-flex items-center rounded-full bg-roast border border-gold/30 p-0.5 text-xs font-semibold" role="group" aria-label="Language switcher">
           <a
             href="https://nandicrestcoffee-dev.github.io/"
@@ -118,10 +118,20 @@
         </div>
 
         <a
-          href="mailto:nandicrestcoffee@gmail.com?subject=Sample%20%26%20Offer%20Request%20%E2%80%94%20Nandi%20Crest%20Coffee"
+          href="https://nandicrestcoffee.blogspot.com/?m=1"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="hidden md:inline-flex items-center gap-1.5 rounded-full border border-gold/35 bg-roast/80 hover:border-gold text-sand hover:text-gold font-medium text-xs px-3.5 py-2.5 transition"
+        >
+          <span>Blog</span>
+          <span aria-hidden="true">↗</span>
+        </a>
+
+        <a
+          href="mailto:nandicrestcoffee@gmail.com?subject=FOB%20%2F%20CIF%20Offer%20%26%20Sample%20Request%20%E2%80%94%20Nandi%20Crest%20Coffee"
           class="hidden sm:inline-flex items-center gap-2 rounded-full bg-gold hover:bg-goldLight text-obsidian font-semibold text-xs sm:text-sm px-4 py-2.5 transition shadow-gold"
         >
-          <span>Request Offer</span>
+          <span>Email Desk</span>
           <span aria-hidden="true">→</span>
         </a>
 
@@ -146,20 +156,30 @@
     <!-- Mobile Navigation Drawer -->
     <div id="mobile-menu" class="lg:hidden hidden bg-espresso border-t border-gold/15 px-6 py-5 space-y-3 text-sm">
       <a href="#origin" class="block py-1.5 text-sand hover:text-gold transition mobile-link">Origin & Terroir</a>
-      <a href="#offerings" class="block py-1.5 text-sand hover:text-gold transition mobile-link">Grades & Lots</a>
-      <a href="#trade" class="block py-1.5 text-sand hover:text-gold transition mobile-link">Export & Docs</a>
-      <a href="#journal" class="block py-1.5 text-sand hover:text-gold transition mobile-link">Field Notes</a>
+      <a href="#offerings" class="block py-1.5 text-sand hover:text-gold transition mobile-link">Grades & Terms</a>
+      <a href="#trade" class="block py-1.5 text-sand hover:text-gold transition mobile-link">FOB / CIF & Freight</a>
+      <a href="#journal" class="block py-1.5 text-sand hover:text-gold transition mobile-link">Blog</a>
       <a href="#contact" class="block py-1.5 text-sand hover:text-gold transition mobile-link">Trade Desk</a>
       <div class="pt-3 border-t border-gold/15 flex flex-wrap items-center justify-between gap-3">
         <a href="mailto:nandicrestcoffee@gmail.com" class="text-gold font-medium hover:underline">
           nandicrestcoffee@gmail.com
         </a>
-        <a
-          href="https://nandicrestcoffee-dev.github.io/Nandi-Crest-Coffee-RU/"
-          class="text-xs px-3 py-1.5 rounded-full border border-gold/40 text-goldLight hover:bg-gold/10 transition"
-        >
-          Русская версия (RU) →
-        </a>
+        <div class="flex items-center gap-2">
+          <a
+            href="https://nandicrestcoffee.blogspot.com/?m=1"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-xs px-3 py-1.5 rounded-full bg-gold text-obsidian font-semibold transition"
+          >
+            Blog ↗
+          </a>
+          <a
+            href="https://nandicrestcoffee-dev.github.io/Nandi-Crest-Coffee-RU/"
+            class="text-xs px-3 py-1.5 rounded-full border border-gold/40 text-goldLight hover:bg-gold/10 transition"
+          >
+            RU →
+          </a>
+        </div>
       </div>
     </div>
   </header>
@@ -167,7 +187,6 @@
   <main id="top">
     <!-- Hero Section -->
     <section class="relative pt-28 pb-16 sm:pt-36 sm:pb-24 overflow-hidden">
-      <!-- Subtle Ambient Glow -->
       <div class="pointer-events-none absolute -top-32 left-1/2 -translate-x-1/2 w-[780px] h-[420px] rounded-full bg-gold/10 blur-[130px]"></div>
 
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
@@ -176,7 +195,7 @@
           <div class="lg:col-span-7 space-y-6">
             <div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-roast/90 border border-gold/30 text-xs tracking-wider uppercase text-goldLight">
               <span class="w-2 h-2 rounded-full bg-gold animate-pulse"></span>
-              <span>Single Origin Kenya • Nandi Hills • Strategic Trade Desk</span>
+              <span>Single Origin Kenya • FOB & CIF • Sea & Air Freight</span>
             </div>
 
             <h1 class="font-serif text-4xl sm:text-6xl lg:text-[64px] font-semibold leading-[1.04] tracking-tight gold-gradient-text">
@@ -184,13 +203,13 @@
             </h1>
 
             <p class="text-base sm:text-lg text-sand/85 leading-relaxed max-w-2xl">
-              Sourced from the mist-draped volcanic highlands of Nandi Hills and coordinated through our Nairobi trade desk for transparent green coffee sourcing, verified export documentation, and reliable shipment via Mombasa.
+              Sourced from Nandi Hills and coordinated through our Nairobi strategic trade desk with flexible <strong class="text-cream font-semibold">FOB</strong> and <strong class="text-cream font-semibold">CIF</strong> terms, full export documentation, and dependable <strong class="text-cream font-semibold">Sea Freight</strong> and <strong class="text-cream font-semibold">Air Freight</strong> delivery.
             </p>
 
             <!-- CTA Buttons -->
-            <div class="flex flex-wrap items-center gap-3.5 pt-1">
+            <div class="flex flex-wrap items-center gap-3 pt-1">
               <a
-                href="mailto:nandicrestcoffee@gmail.com?subject=Green%20Coffee%20Inquiry%20%E2%80%94%20Nandi%20Crest%20Coffee"
+                href="mailto:nandicrestcoffee@gmail.com?subject=FOB%20%2F%20CIF%20Trade%20Inquiry%20%E2%80%94%20Nandi%20Crest%20Coffee"
                 class="inline-flex items-center gap-2.5 rounded-full bg-gold hover:bg-goldLight text-obsidian font-semibold text-sm px-6 py-3.5 transition shadow-gold"
               >
                 <span>Email Trade Desk</span>
@@ -198,33 +217,36 @@
               </a>
 
               <a
-                href="#offerings"
-                class="inline-flex items-center gap-2 rounded-full border border-gold/35 bg-roast/70 hover:border-gold text-cream font-medium text-sm px-6 py-3.5 transition"
+                href="https://nandicrestcoffee.blogspot.com/?m=1"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 rounded-full border border-gold/40 bg-roast/80 hover:border-gold text-goldLight hover:text-cream font-medium text-sm px-5 py-3.5 transition"
               >
-                <span>Explore Offerings</span>
+                <span>Visit Coffee Blog</span>
+                <span aria-hidden="true">↗</span>
               </a>
 
               <a
                 href="https://nandicrestcoffee-dev.github.io/Nandi-Crest-Coffee-RU/"
                 class="inline-flex items-center gap-2 rounded-full border border-sand/20 hover:border-gold/50 text-sand/90 hover:text-gold text-xs sm:text-sm px-4 py-3.5 transition"
               >
-                <span>🇷🇺 Версия на русском</span>
+                <span>🇷🇺 RU Version</span>
               </a>
             </div>
 
             <!-- Key Metrics Strip -->
-            <div class="grid grid-cols-3 gap-4 pt-6 border-t border-gold/15 max-w-xl">
+            <div class="grid grid-cols-3 gap-4 pt-6 border-t border-gold/15 max-w-2xl">
               <div>
-                <div class="font-serif text-2xl sm:text-3xl font-semibold text-gold">1,650–2,100m</div>
-                <div class="text-xs text-sand/70 mt-0.5">Nandi Hills Elevation</div>
+                <div class="font-serif text-2xl sm:text-3xl font-semibold text-gold">FOB & CIF</div>
+                <div class="text-xs text-sand/70 mt-0.5">Mombasa & Destination</div>
               </div>
               <div>
-                <div class="font-serif text-2xl sm:text-3xl font-semibold text-cream">100% Arabica</div>
-                <div class="text-xs text-sand/70 mt-0.5">SL28, SL34 & Ruiru 11</div>
+                <div class="font-serif text-2xl sm:text-3xl font-semibold text-cream">Sea & Air</div>
+                <div class="text-xs text-sand/70 mt-0.5">Ocean Containers & Air Cargo</div>
               </div>
               <div>
-                <div class="font-serif text-2xl sm:text-3xl font-semibold text-cream">FOB / CIF</div>
-                <div class="text-xs text-sand/70 mt-0.5">Mombasa Export Desk</div>
+                <div class="font-serif text-2xl sm:text-3xl font-semibold text-cream">1,650–2,100m</div>
+                <div class="text-xs text-sand/70 mt-0.5">Nandi Hills Arabica</div>
               </div>
             </div>
           </div>
@@ -234,6 +256,8 @@
             <div class="relative rounded-3xl overflow-hidden border border-gold/30 bg-roast shadow-card">
               <img
                 src="1000030405.jpg"
+                data-fallback="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1200&q=80"
+                onerror="if(!this.dataset.done){this.dataset.done='1';this.src=this.dataset.fallback;}"
                 alt="Nandi Crest Coffee single origin bag, cupping cup, and highland hills"
                 class="w-full h-[420px] sm:h-[490px] object-cover"
               />
@@ -244,7 +268,7 @@
                     <p class="font-serif text-xl text-cream mt-0.5">Blackcurrant, Bright Citrus & Dark Cocoa</p>
                   </div>
                   <span class="shrink-0 rounded-full bg-forest/90 border border-emerald-500/30 px-3 py-1 text-[11px] text-emerald-200">
-                    Lot Traceable
+                    FOB / CIF Ready
                   </span>
                 </div>
               </div>
@@ -265,7 +289,7 @@
             </h2>
           </div>
           <p class="text-sm sm:text-base text-sand/75 max-w-xl">
-            Rich red volcanic nitisols, balanced highland rainfall, and careful wet/dry processing create dense beans with vibrant acidity and clean structure.
+            Rich red volcanic soils, high altitude, and disciplined post-harvest care produce dense Kenyan Arabica lots for specialty and commercial buyers.
           </p>
         </div>
 
@@ -274,6 +298,8 @@
           <article class="card-surface rounded-2xl overflow-hidden transition duration-300">
             <img
               src="1000033700.jpg"
+              data-fallback="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1000&q=80"
+              onerror="if(!this.dataset.done){this.dataset.done='1';this.src=this.dataset.fallback;}"
               alt="Selective hand-picking of ripe red coffee cherries in Nandi Hills"
               class="w-full h-56 object-cover"
             />
@@ -290,6 +316,8 @@
           <article class="card-surface rounded-2xl overflow-hidden transition duration-300">
             <img
               src="1000030410.jpg"
+              data-fallback="https://images.unsplash.com/photo-1559525839-b184a4d698c7?auto=format&fit=crop&w=1000&q=80"
+              onerror="if(!this.dataset.done){this.dataset.done='1';this.src=this.dataset.fallback;}"
               alt="Freshly milled green Arabica coffee beans in woven sacks"
               class="w-full h-56 object-cover"
             />
@@ -297,7 +325,7 @@
               <div class="text-xs uppercase tracking-widest text-gold">02 • Milling & Grading</div>
               <h3 class="font-serif text-2xl font-semibold text-cream">Precision Screen & Density Sort</h3>
               <p class="text-sm text-sand/75 leading-relaxed">
-                Carefully dried, hulled, and graded into export-ready screen sizes with controlled moisture levels for long-haul maritime stability.
+                Carefully dried, hulled, and graded into export-ready screen sizes with controlled moisture levels for sea and air transit.
               </p>
             </div>
           </article>
@@ -306,14 +334,16 @@
           <article class="card-surface rounded-2xl overflow-hidden transition duration-300">
             <img
               src="1000030675.jpg"
+              data-fallback="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=80"
+              onerror="if(!this.dataset.done){this.dataset.done='1';this.src=this.dataset.fallback;}"
               alt="International coffee trade partnership and shipment coordination"
               class="w-full h-56 object-cover"
             />
             <div class="p-6 space-y-2.5">
               <div class="text-xs uppercase tracking-widest text-gold">03 • Commercial Execution</div>
-              <h3 class="font-serif text-2xl font-semibold text-cream">Direct International Trade</h3>
+              <h3 class="font-serif text-2xl font-semibold text-cream">FOB & CIF Global Trade</h3>
               <p class="text-sm text-sand/75 leading-relaxed">
-                Streamlined communication from our Nairobi trade desk for roasters, importers, and distributors seeking dependable supply contracts.
+                Direct execution from our Nairobi trade desk with tailored FOB Mombasa and CIF offers via sea freight or air freight.
               </p>
             </div>
           </article>
@@ -321,13 +351,13 @@
       </div>
     </section>
 
-    <!-- Offerings & Specifications -->
+    <!-- Offerings & Trade Terms -->
     <section id="offerings" class="py-20 border-t border-gold/10">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-2xl mb-12">
-          <span class="text-xs uppercase tracking-[0.24em] text-gold">Grades & Commercial Lots</span>
+          <span class="text-xs uppercase tracking-[0.24em] text-gold">Grades & Commercial Terms</span>
           <h2 class="font-serif text-3xl sm:text-5xl font-semibold text-cream mt-2">
-            Curated Offerings for Specialty & Commercial Buyers
+            Single-Origin Lots & Flexible Delivery Terms
           </h2>
         </div>
 
@@ -343,7 +373,7 @@
               </div>
               <h3 class="font-serif text-3xl font-semibold text-cream">Nandi Hills Washed Arabica</h3>
               <p class="text-sm text-sand/80 mt-3 leading-relaxed">
-                Crisp malic and citric brightness balanced by berry sweetness, cocoa depth, and a lingering finish suited for filter and espresso programs.
+                Crisp malic and citric brightness balanced by berry sweetness, cocoa depth, and a clean finish suited for filter and espresso programs.
               </p>
               <ul class="mt-6 space-y-2.5 text-sm text-sand/85 border-t border-gold/15 pt-5">
                 <li class="flex justify-between gap-4">
@@ -356,12 +386,12 @@
                 </li>
                 <li class="flex justify-between gap-4">
                   <span class="text-sand/65">Packaging</span>
-                  <span class="font-medium text-cream">60kg Jute / GrainPro Liner</span>
+                  <span class="font-medium text-cream">60kg Jute / GrainPro / Sample Pouches</span>
                 </li>
               </ul>
             </div>
             <div class="mt-7 pt-4 border-t border-gold/10 flex items-center justify-between">
-              <span class="text-xs text-sand/65">Sample dispatch available on request</span>
+              <span class="text-xs text-sand/65">Air-dispatched samples & full lots</span>
               <a
                 href="mailto:nandicrestcoffee@gmail.com?subject=Sample%20Request%20%E2%80%94%20Nandi%20Hills%20Washed%20Arabica"
                 class="text-sm font-semibold text-gold hover:text-goldLight transition"
@@ -371,41 +401,41 @@
             </div>
           </div>
 
-          <!-- B2B Contract Supply -->
+          <!-- FOB & CIF / Sea & Air -->
           <div class="card-surface rounded-2xl p-7 sm:p-8 flex flex-col justify-between transition duration-300">
             <div>
               <div class="flex items-center justify-between gap-4 mb-4">
                 <span class="px-3 py-1 rounded-full text-xs font-semibold bg-forest text-emerald-200 border border-emerald-500/30">
-                  B2B Export & Allocation
+                  FOB & CIF • Sea & Air Delivery
                 </span>
-                <span class="text-xs text-sand/65">Spot & Forward Contracts</span>
+                <span class="text-xs text-sand/65">Spot & Contract</span>
               </div>
-              <h3 class="font-serif text-3xl font-semibold text-cream">Commercial & Roastery Supply</h3>
+              <h3 class="font-serif text-3xl font-semibold text-cream">International Shipping & Terms</h3>
               <p class="text-sm text-sand/80 mt-3 leading-relaxed">
-                Structured allocations for international importers and roasteries requiring clear contract terms, pre-shipment quality checks, and port logistics.
+                We quote both <strong class="text-cream">FOB (Free On Board)</strong> and <strong class="text-cream">CIF (Cost, Insurance & Freight)</strong>, coordinating <strong class="text-cream">Sea Freight</strong> containers and <strong class="text-cream">Air Freight</strong> shipments based on volume and urgency.
               </p>
               <ul class="mt-6 space-y-2.5 text-sm text-sand/85 border-t border-gold/15 pt-5">
                 <li class="flex justify-between gap-4">
-                  <span class="text-sand/65">Incoterms</span>
-                  <span class="font-medium text-cream">FOB Mombasa / CIF / DDP (by agreement)</span>
+                  <span class="text-sand/65">Trade Terms</span>
+                  <span class="font-medium text-cream">FOB Mombasa & CIF Destination Port</span>
                 </li>
                 <li class="flex justify-between gap-4">
-                  <span class="text-sand/65">Origin Hub</span>
-                  <span class="font-medium text-cream">Nandi Hills & Nairobi Trade Desk</span>
+                  <span class="text-sand/65">Transport Modes</span>
+                  <span class="font-medium text-cream">Sea Freight (FCL/LCL) & Air Freight</span>
                 </li>
                 <li class="flex justify-between gap-4">
-                  <span class="text-sand/65">Direct Desk</span>
+                  <span class="text-sand/65">Trade Desk Email</span>
                   <span class="font-medium text-gold">nandicrestcoffee@gmail.com</span>
                 </li>
               </ul>
             </div>
             <div class="mt-7 pt-4 border-t border-gold/10 flex items-center justify-between">
-              <span class="text-xs text-sand/65">Tailored volume & schedule proposals</span>
+              <span class="text-xs text-sand/65">Custom FOB or CIF quotes on request</span>
               <a
-                href="mailto:nandicrestcoffee@gmail.com?subject=B2B%20Contract%20%26%20Allocation%20Inquiry"
+                href="mailto:nandicrestcoffee@gmail.com?subject=FOB%20%26%20CIF%20Shipping%20Quote%20%28Sea%20%26%20Air%29"
                 class="text-sm font-semibold text-gold hover:text-goldLight transition"
               >
-                Discuss Terms →
+                Get FOB / CIF Quote →
               </a>
             </div>
           </div>
@@ -413,35 +443,35 @@
       </div>
     </section>
 
-    <!-- Export Documentation & Logistics -->
+    <!-- FOB, CIF, Sea & Air Logistics + Export Documentation -->
     <section id="trade" class="py-20 border-t border-gold/10 bg-espresso/60">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid lg:grid-cols-12 gap-10 items-center">
           <div class="lg:col-span-6 space-y-5">
-            <span class="text-xs uppercase tracking-[0.24em] text-gold">Export Documentation & Logistics</span>
+            <span class="text-xs uppercase tracking-[0.24em] text-gold">FOB • CIF • Sea Freight • Air Freight</span>
             <h2 class="font-serif text-3xl sm:text-5xl font-semibold text-cream">
-              Transparent Paperwork From Farm Gate to Destination Port
+              Flexible Delivery by Sea & Air With Full Export Docs
             </h2>
             <p class="text-sm sm:text-base text-sand/80 leading-relaxed">
-              International coffee trade depends on accuracy before a container ever moves. We align commercial documentation, quality verification, and shipment schedules with our buyers.
+              Whether shipping commercial volumes under <strong class="text-cream">FOB</strong> or <strong class="text-cream">CIF</strong> via <strong class="text-cream">Sea Freight</strong> from Mombasa or moving priority consignments and samples via <strong class="text-cream">Air Freight</strong>, every shipment is backed by clear trade paperwork.
             </p>
 
             <div class="grid sm:grid-cols-2 gap-4 pt-2">
+              <div class="rounded-xl bg-roast border border-gold/25 p-4">
+                <div class="text-sm font-semibold text-gold">FOB & CIF Terms</div>
+                <p class="text-xs text-sand/75 mt-1">Transparent FOB port pricing or CIF delivery including freight & marine insurance.</p>
+              </div>
+              <div class="rounded-xl bg-roast border border-gold/25 p-4">
+                <div class="text-sm font-semibold text-gold">Sea & Air Delivery</div>
+                <p class="text-xs text-sand/75 mt-1">Ocean container logistics (Sea Freight) alongside fast-track Air Freight options.</p>
+              </div>
               <div class="rounded-xl bg-roast border border-gold/20 p-4">
                 <div class="text-sm font-semibold text-gold">Certificate of Origin</div>
-                <p class="text-xs text-sand/75 mt-1">Verifies Kenyan origin and lot provenance for customs clearance.</p>
+                <p class="text-xs text-sand/75 mt-1">Official origin documentation and lot traceability for customs clearance.</p>
               </div>
               <div class="rounded-xl bg-roast border border-gold/20 p-4">
-                <div class="text-sm font-semibold text-gold">Commercial & Packing Docs</div>
-                <p class="text-xs text-sand/75 mt-1">Clear proforma/commercial invoices, weights, and bag counts.</p>
-              </div>
-              <div class="rounded-xl bg-roast border border-gold/20 p-4">
-                <div class="text-sm font-semibold text-gold">Quality & Moisture Specs</div>
-                <p class="text-xs text-sand/75 mt-1">Grade, screen size, moisture check, and sample alignment.</p>
-              </div>
-              <div class="rounded-xl bg-roast border border-gold/20 p-4">
-                <div class="text-sm font-semibold text-gold">Port of Mombasa Routing</div>
-                <p class="text-xs text-sand/75 mt-1">Coordinated container booking and vessel milestone updates.</p>
+                <div class="text-sm font-semibold text-gold">Commercial & Quality Docs</div>
+                <p class="text-xs text-sand/75 mt-1">Commercial invoices, packing lists, moisture/grade specs, and shipping bills.</p>
               </div>
             </div>
           </div>
@@ -449,11 +479,15 @@
           <div class="lg:col-span-6 grid sm:grid-cols-2 gap-4">
             <img
               src="1000030407.jpg"
+              data-fallback="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1000&q=80"
+              onerror="if(!this.dataset.done){this.dataset.done='1';this.src=this.dataset.fallback;}"
               alt="Nandi Hills processing, Mombasa port logistics, and export documentation overview"
               class="rounded-2xl border border-gold/25 object-cover w-full h-64 sm:h-72 shadow-card"
             />
             <img
               src="1000030406.jpg"
+              data-fallback="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=1000&q=80"
+              onerror="if(!this.dataset.done){this.dataset.done='1';this.src=this.dataset.fallback;}"
               alt="Single origin coffee bag, commercial invoice, and certificate of origin"
               class="rounded-2xl border border-gold/25 object-cover w-full h-64 sm:h-72 shadow-card sm:mt-8"
             />
@@ -462,27 +496,27 @@
       </div>
     </section>
 
-    <!-- Field Notes / Journal -->
+    <!-- Field Notes / Blog Bridge -->
     <section id="journal" class="py-20 border-t border-gold/10">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="rounded-3xl card-surface p-8 sm:p-10 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
           <div class="space-y-2 max-w-2xl">
-            <span class="text-xs uppercase tracking-[0.24em] text-gold">Field Notes & Journal</span>
+            <span class="text-xs uppercase tracking-[0.24em] text-gold">Official Coffee Blog</span>
             <h2 class="font-serif text-3xl sm:text-4xl font-semibold text-cream">
-              Insights From Nandi Hills & The Trade Desk
+              Read Field Updates on Nandi Crest Coffee Blog
             </h2>
             <p class="text-sm sm:text-base text-sand/80">
-              Read harvest dispatches, origin notes, and trade commentary published on the official Nandi Crest Coffee blog.
+              Explore origin stories, harvest notes, and trade updates directly on our mobile-ready Blogspot page.
             </p>
           </div>
           <div class="flex flex-wrap items-center gap-3 shrink-0">
             <a
-              href="https://nandicrestcoffee.blogspot.com/"
+              href="https://nandicrestcoffee.blogspot.com/?m=1"
               target="_blank"
               rel="noopener noreferrer"
-              class="inline-flex items-center gap-2 rounded-full bg-gold hover:bg-goldLight text-obsidian font-semibold text-sm px-6 py-3.5 transition shadow-gold"
+              class="inline-flex items-center gap-2.5 rounded-full bg-gold hover:bg-goldLight text-obsidian font-semibold text-sm px-6 py-3.5 transition shadow-gold"
             >
-              <span>Open Official Blog</span>
+              <span>Open Blogspot Page</span>
               <span aria-hidden="true">↗</span>
             </a>
           </div>
@@ -502,7 +536,7 @@
                 Connect Directly With Our Desk
               </h2>
               <p class="text-sm sm:text-base text-sand/80 mt-3 leading-relaxed">
-                For sample requests, current lot availability, pricing terms, or partnership inquiries, reach out directly by email or use the inquiry builder.
+                Request FOB or CIF quotes, compare sea freight and air freight options, order samples, or connect with our team via email.
               </p>
             </div>
 
@@ -525,35 +559,35 @@
                 </button>
               </div>
               <p class="text-xs text-sand/65">
-                Location: Nandi Hills & Nairobi, Kenya • Languages: English & Русский
+                Nandi Hills & Nairobi, Kenya • FOB & CIF • Sea & Air Freight
               </p>
             </div>
 
-            <!-- Quick Language & Channel Links -->
+            <!-- Quick Navigation & External Links -->
             <div class="flex flex-wrap gap-3 text-xs">
+              <a
+                href="https://nandicrestcoffee.blogspot.com/?m=1"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="rounded-full bg-gold/15 border border-gold/40 px-4 py-2 text-goldLight hover:bg-gold hover:text-obsidian font-medium transition"
+              >
+                Blogspot (?m=1) ↗
+              </a>
               <a
                 href="https://nandicrestcoffee-dev.github.io/Nandi-Crest-Coffee-RU/"
                 class="rounded-full border border-gold/25 bg-roast px-4 py-2 text-sand hover:border-gold hover:text-gold transition"
               >
                 Russian Portal (RU) →
               </a>
-              <a
-                href="https://nandicrestcoffee.blogspot.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="rounded-full border border-gold/25 bg-roast px-4 py-2 text-sand hover:border-gold hover:text-gold transition"
-              >
-                Blogspot Journal →
-              </a>
             </div>
           </div>
 
-          <!-- Right Quick Inquiry Composer (opens pre-filled mailto) -->
+          <!-- Right Quick Inquiry Composer -->
           <div class="lg:col-span-7">
             <form id="trade-inquiry-form" class="card-surface rounded-3xl p-6 sm:p-8 space-y-5">
               <div class="flex items-center justify-between gap-4">
                 <h3 class="font-serif text-2xl sm:text-3xl font-semibold text-cream">Send a Trade Inquiry</h3>
-                <span class="text-xs text-goldLight">Direct to nandicrestcoffee@gmail.com</span>
+                <span class="text-xs text-goldLight">nandicrestcoffee@gmail.com</span>
               </div>
 
               <div class="grid sm:grid-cols-2 gap-4">
@@ -585,27 +619,27 @@
 
               <div class="grid sm:grid-cols-2 gap-4">
                 <div>
-                  <label for="inquiry-type" class="block text-xs uppercase tracking-wider text-sand/75 mb-2">
-                    Inquiry Focus
+                  <label for="incoterm-mode" class="block text-xs uppercase tracking-wider text-sand/75 mb-2">
+                    Term & Shipping Mode
                   </label>
                   <select
-                    id="inquiry-type"
+                    id="incoterm-mode"
                     class="w-full rounded-xl bg-obsidian/80 border border-gold/20 focus:border-gold focus:outline-none px-4 py-3 text-sm text-cream"
                   >
-                    <option value="Green Coffee Offer & Specs">Green Coffee Offer & Specs</option>
-                    <option value="Sample Dispatch Request">Sample Dispatch Request</option>
-                    <option value="FOB / CIF Contract Allocation">FOB / CIF Contract Allocation</option>
-                    <option value="Strategic Partnership">Strategic Partnership</option>
+                    <option value="FOB — Sea Freight">FOB — Sea Freight</option>
+                    <option value="CIF — Sea Freight">CIF — Sea Freight</option>
+                    <option value="CIF / Air Freight — Priority & Samples">CIF / Air Freight — Priority & Samples</option>
+                    <option value="FOB / CIF — Both Sea & Air Options">FOB / CIF — Both Sea & Air Options</option>
                   </select>
                 </div>
                 <div>
                   <label for="destination-port" class="block text-xs uppercase tracking-wider text-sand/75 mb-2">
-                    Destination / Volume (Optional)
+                    Port / Airport & Quantity
                   </label>
                   <input
                     id="destination-port"
                     type="text"
-                    placeholder="e.g., Hamburg / 20ft FCL or 5kg sample"
+                    placeholder="e.g., CIF Hamburg (Sea) or Air Sample"
                     class="w-full rounded-xl bg-obsidian/80 border border-gold/20 focus:border-gold focus:outline-none px-4 py-3 text-sm text-cream placeholder:text-sand/40"
                   />
                 </div>
@@ -618,14 +652,14 @@
                 <textarea
                   id="inquiry-notes"
                   rows="4"
-                  placeholder="Share preferred grade (AA/AB), cup profile notes, timeline, or documentation requirements..."
+                  placeholder="Specify grade (AA/AB), FOB or CIF preference, sea or air delivery, target schedule, or sample needs..."
                   class="w-full rounded-xl bg-obsidian/80 border border-gold/20 focus:border-gold focus:outline-none px-4 py-3 text-sm text-cream placeholder:text-sand/40"
                 ></textarea>
               </div>
 
               <div class="flex flex-wrap items-center justify-between gap-4 pt-1">
                 <p id="form-status" class="text-xs text-sand/70">
-                  Opens your email client pre-addressed to <span class="text-gold">nandicrestcoffee@gmail.com</span>.
+                  Opens your email app addressed to <span class="text-gold">nandicrestcoffee@gmail.com</span>.
                 </p>
                 <button
                   type="submit"
@@ -651,7 +685,7 @@
             Nandi Crest <span class="text-gold">Coffee</span>
           </div>
           <p class="text-xs text-sand/70 mt-1">
-            High-Altitude Single Origin Kenyan Arabica • Nandi Hills & Nairobi Trade Desk
+            High-Altitude Kenyan Arabica • FOB & CIF • Sea & Air Freight • Nandi Hills & Nairobi
           </p>
         </div>
 
@@ -668,25 +702,24 @@
           </a>
           <span class="text-sand/30">•</span>
           <a
-            href="https://nandicrestcoffee.blogspot.com/"
+            href="https://nandicrestcoffee.blogspot.com/?m=1"
             target="_blank"
             rel="noopener noreferrer"
             class="text-sand/80 hover:text-gold transition"
           >
-            Journal
+            Blog ↗
           </a>
         </div>
       </div>
 
       <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-sand/55">
         <p>© <span id="year"></span> Nandi Crest Coffee. All rights reserved.</p>
-        <p>Sourced in Kenya • Built for International Coffee Trade</p>
+        <p>FOB & CIF • Sea Freight & Air Freight • Kenya Trade Desk</p>
       </div>
     </div>
   </footer>
 
   <script>
-    // Dynamic year
     document.getElementById('year').textContent = new Date().getFullYear();
 
     // Mobile menu toggle
@@ -737,24 +770,24 @@
       e.preventDefault();
       const name = document.getElementById('buyer-name').value.trim();
       const email = document.getElementById('buyer-email').value.trim();
-      const focus = document.getElementById('inquiry-type').value;
+      const termMode = document.getElementById('incoterm-mode').value;
       const destVol = document.getElementById('destination-port').value.trim();
       const notes = document.getElementById('inquiry-notes').value.trim();
 
-      const subject = encodeURIComponent(`${focus} — ${name}`);
+      const subject = encodeURIComponent(`${termMode} Inquiry — ${name}`);
       const bodyLines = [
         `Name / Company: ${name}`,
         `Reply Email: ${email}`,
-        `Inquiry Focus: ${focus}`,
-        destVol ? `Destination / Volume: ${destVol}` : null,
+        `Term & Shipping Mode: ${termMode}`,
+        destVol ? `Destination / Quantity: ${destVol}` : null,
         '',
         'Details:',
-        notes || 'Please share current availability, specifications, and terms.'
+        notes || 'Please share FOB/CIF offer, sea/air freight options, and specs.'
       ].filter(Boolean);
 
       const body = encodeURIComponent(bodyLines.join('\n'));
       window.location.href = `mailto:${tradeEmail}?subject=${subject}&body=${body}`;
-      formStatus.textContent = `Prepared inquiry for ${tradeEmail}. If your mail client did not open, email us directly.`;
+      formStatus.textContent = `Prepared email for ${tradeEmail}.`;
     });
   </script>
 </body>
